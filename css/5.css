@@ -1,0 +1,22 @@
+p {
+        padding: 10px;
+}
+
+
+.img {
+  background-image: url(https://pub-1407f82391df4ab1951418d04be76914.r2.dev/uploads/af102d5a-006b-4627-9346-ac5d48744938.jpg);
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  right: 0;
+  top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 10px black;
+}

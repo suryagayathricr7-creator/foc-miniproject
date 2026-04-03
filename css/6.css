@@ -1,0 +1,31 @@
+.nb{
+    display: flex;                 
+    justify-content: space-evenly; 
+   
+    background-color: rgb(216, 195, 179);
+    padding: 15px;
+}
+
+.nb li a{
+    color: rgb(65, 64, 64);
+}
+
+
+.outer {
+    height: 650px;
+    border: 2px solid rgb(28, 1, 1);
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;      
+}
+
+
+.inner {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(241, 99, 99);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

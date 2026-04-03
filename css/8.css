@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.ldr{
+  width: 80px;
+  height: 80px;
+  border: 10px solid #ccc;        
+  border-top: 10px solid black;    
+  border-radius: 50%;
+  
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+
+}

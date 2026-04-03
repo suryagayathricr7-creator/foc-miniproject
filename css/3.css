@@ -1,0 +1,21 @@
+#box{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    background-color: #0f1111;
+    margin: 0%;
+    padding: 0%;
+    height: 60px;
+    text-align: center;
+}
+.name{
+    color: orange;
+    font-size: 25px;
+}
+.acc{
+    color: white;
+}
+.bt{
+    color: white;
+    background-color:#f08804;
+}
